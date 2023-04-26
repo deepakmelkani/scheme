@@ -1,2 +1,2 @@
 # scheme
-Stretch-a-bit: Embedded Systems Engineer (Round 2)
+In this implementation, the floating point number's sign is represented as a 1-bit integer (0 for positive, 1 for negative), the exponent is represented as a 5-bit integer (with a bias of 15 added to allow for both positive and negative exponents), and the fraction is represented as a 10-bit integer. The 32-bit floating point format, known as a float in C++, is converted from the 16-bit floating point format by the to_float32 method.
